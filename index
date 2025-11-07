@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal Navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        nav{
+            background: #0d6efd;
+            padding: 12px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo{
+            color: #fff;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .menu{
+            list-style: none;
+            display: flex;
+        }
+
+        .menu li{
+            margin: 0 10px;
+        }
+
+        .menu li a{
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .menu li a:hover{
+            color: #d6d6d6;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">My Website</div>
+
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
